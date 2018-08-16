@@ -7,7 +7,7 @@ let package = Package(
     name: "Alexa",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url:"./my_lib", from: "1.0.0"),
+        .package(url:"./Sources/my_lib/my_lib.swift", from: "1.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
